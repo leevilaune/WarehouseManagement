@@ -12,7 +12,7 @@ namespace WarehouseManagement
         [Key]
         public int Id { get; set; }
         public string? ProductName { get; set; }
-        public string? ProductPrice { get; set; }
-        public string? ProductAmount { get; set; }
+        public int? ProductPrice { get; set; }
+        public int? ProductAmount { get; set; }
     }
 }
